@@ -1,0 +1,8 @@
+name: pix-2-code
+dependencies:
+  - keras=2.1.2
+  - h5py=2.7.1
+  - numpy=1.13.3
+  - pip:
+    - tensorflow==1.4.0
+    - opencv-python==3.3.0.10
