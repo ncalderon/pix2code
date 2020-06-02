@@ -22,7 +22,15 @@ else:
     output_path = argv[3]
     search_method = "greedy" if len(argv) < 5 else argv[4]
 
+# save np.load
+np_load_old = np.load
+
+# modify the default parameters of np.load
+np.load = lambda *a,**k: np_load_old(*a, allow_pickle=True, **k)
 meta_dataset = np.load("{}/meta_dataset.npy".format(trained_weights_path))
+# restore np.load for future normal usage
+np.load = np_load_old
+
 input_shape = meta_dataset[0]
 output_size = meta_dataset[1]
 

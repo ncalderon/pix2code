@@ -1,9 +1,11 @@
 name: pix-2-code
 dependencies:
+  - notebook
   - ipykernel
   - ipython
   - tensorflow-gpu=1.15.0
   - keras
+  - pydot
   #=2.3.1
   - h5py
   #=2.10.0
