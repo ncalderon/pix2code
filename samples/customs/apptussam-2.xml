@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tonybeltramelli.android_gui.MainActivity">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Switch android:id="@+id/nQcLmLQUNv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Oilyc"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Button android:id="@+id/VjTRtNlOWb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tjqwm"/><Button android:id="@+id/HsjhRpyvGb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wjiwt"/><Button android:id="@+id/LBQCvyyVtt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gvdym"/><Button android:id="@+id/oqKVXVEEnU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gadvv"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/gCfHGkLvjA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Zhfwe" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<SeekBar android:id="@+id/XxmMNHWoDn" style="@style/Widget.AppCompat.SeekBar.Discrete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.9" android:max="10" android:progress="5"/><TextView android:id="@+id/gpLoBBFcRq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yrvze" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Button android:id="@+id/xneOTgJUzJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gxvms"/><Button android:id="@+id/vNxXnfPIIK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ztimj"/><Button android:id="@+id/RLRUxiaDcl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bzkrl"/>
+</LinearLayout>
+    </LinearLayout>
+</FrameLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+    <Button android:id="@+id/SvOrkOQfie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="?android:attr/actionModeWebSearchDrawable" android:text=""/><Button android:id="@+id/xTNeIMDDoz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="@drawable/ic_home_black_24dp" android:text=""/><Button android:id="@+id/wuOYsuvWQU" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="@drawable/ic_home_black_24dp" android:text=""/>
+</LinearLayout>
+</LinearLayout>

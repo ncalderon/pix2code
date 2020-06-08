@@ -3,7 +3,8 @@ dependencies:
   - notebook
   - ipykernel
   - ipython
-  - tensorflow-gpu=1.15.0
+  #- tensorflow-gpu=1.15.0
+  - tensorflow=1.15.0
   - keras
   - pydot
   #=2.3.1

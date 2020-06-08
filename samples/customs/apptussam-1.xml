@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tonybeltramelli.android_gui.MainActivity">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Switch android:id="@+id/fnBTyRwxgF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Noyvh"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/truvcfTuDG" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kksuo" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<Button android:id="@+id/LxcBFVmdTu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lykmc"/><Button android:id="@+id/pLmGQcBFcw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Xwvmw"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/EKTsPfWDEa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bjbfp" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<SeekBar android:id="@+id/vFqCuYJCPL" style="@style/Widget.AppCompat.SeekBar.Discrete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.9" android:max="10" android:progress="5"/><TextView android:id="@+id/ZUQzhOUTEZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ctneg" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Button android:id="@+id/wjCIBmoPnx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tpmcj"/><Button android:id="@+id/rwxMFsaHWw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Byslx"/><Button android:id="@+id/socvZPFKGI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Npbop"/><Button android:id="@+id/nqIybxWJAM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vitvl"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/EfXTZGRZLI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lxsvz" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<SeekBar android:id="@+id/xydGYMBFDR" style="@style/Widget.AppCompat.SeekBar.Discrete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.9" android:max="10" android:progress="5"/><TextView android:id="@+id/ZsDfNdTKaV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pglfh" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/MGWXDMVFrI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Otcwt" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<Button android:id="@+id/vCIshOKLVb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yllva"/><Button android:id="@+id/dvCzpmkLEV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vufvr"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/itrthjsrnX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gptkf" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<SeekBar android:id="@+id/dwSfoBzhJK" style="@style/Widget.AppCompat.SeekBar.Discrete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.9" android:max="10" android:progress="5"/><TextView android:id="@+id/fSWfgYCFhH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wqqzq" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/ZSdqIpNJhn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vjlig" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<Button android:id="@+id/sClabraNgN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nsass"/><Button android:id="@+id/IoNeNZKZkt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pbuea"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<TextView android:id="@+id/TARSYFOlqj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Slyhi" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+<SeekBar android:id="@+id/XUxgFlgUdc" style="@style/Widget.AppCompat.SeekBar.Discrete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.9" android:max="10" android:progress="5"/><TextView android:id="@+id/JyJUecHsOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Xetln" android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+</LinearLayout>
+    </LinearLayout>
+</FrameLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+    <Button android:id="@+id/tjuRIsuosZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="?android:attr/actionModeWebSearchDrawable" android:text=""/><Button android:id="@+id/pqZczibilz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="@drawable/ic_home_black_24dp" android:text=""/><Button android:id="@+id/xcDiKakEbC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="@drawable/ic_home_black_24dp" android:text=""/>
+</LinearLayout>
+</LinearLayout>

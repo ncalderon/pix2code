@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tonybeltramelli.android_gui.MainActivity">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<RadioButton android:id="@+id/SBzjHXZAQe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Atgvt"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Button android:id="@+id/fWPWxdMmDm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nycjp"/><Button android:id="@+id/lxhyjsBGmh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nzmcz"/><Button android:id="@+id/wkvfXoLyjZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vtkoh"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<CheckBox android:id="@+id/nzlnoYQUXe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Omwbb"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<CheckBox android:id="@+id/iygFWutTCb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Tbnaf"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<CheckBox android:id="@+id/xvrEWizPMg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Jtnac"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<CheckBox android:id="@+id/CeiFnloFwO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Xrwwi"/>
+</LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:weightSum="1">
+<Switch android:id="@+id/ZRicoofboP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:text="Insuy"/>
+</LinearLayout>
+    </LinearLayout>
+</FrameLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+    <Button android:id="@+id/EpAuKuUTmp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="?android:attr/actionModeWebSearchDrawable" android:text=""/><Button android:id="@+id/GhBItVddzo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="@drawable/ic_home_black_24dp" android:text=""/><Button android:id="@+id/mmsmEVlikJ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#0ffffff" android:layout_weight="1" android:drawableBottom="@drawable/ic_home_black_24dp" android:text=""/>
+</LinearLayout>
+</LinearLayout>
