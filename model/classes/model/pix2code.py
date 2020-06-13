@@ -9,6 +9,9 @@ from keras.optimizers import RMSprop
 from keras import *
 from .Config import *
 from .AModel import *
+import datetime
+import tensorflow as tf
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
 
 class pix2code(AModel):
@@ -66,7 +69,9 @@ class pix2code(AModel):
         self.save()
 
     def fit_generator(self, generator, steps_per_epoch):
-        self.model.fit_generator(generator, steps_per_epoch=steps_per_epoch, epochs=EPOCHS, verbose=1)
+        log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+        tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
+        self.model.fit_generator(generator, steps_per_epoch=steps_per_epoch, epochs=EPOCHS, verbose=1,  callbacks=[tensorboard_callback])
         self.save()
 
     def predict(self, image, partial_caption):

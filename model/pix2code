@@ -30,9 +30,12 @@ fi
 echo "Input image: $INPUT"
 echo "Target platform: $TARGET"
 
-base_path=${INPUT%/*}
+bin=../results/${TARGET}_results/
+#base_path=${INPUT%/*}
+#base_path=../results/${TARGET}_results/
 base_name=${INPUT##*/}
-file_name=${base_name%.*}
+name=${base_name%.*}
+file_name=$INPUT
 
 rm -rf ../bin/pix2code.h5
 rm -rf ../bin/pix2code.json
@@ -45,20 +48,20 @@ cp ../results/${TARGET}_results/meta_dataset.npy ../bin/
 cp ../results/${TARGET}_results/words.vocab ../bin/
 
 echo "Generating code with pre-trained model..."
-./sample.py $base_path $base_path $file_name &>/dev/null
+./sample.py $bin pix2code $file_name ../code
 
 echo "Compiling output for target platform..."
 cd ../compiler
 
 if [ "$TARGET" == "ios" ]
     then
-    ./ios-compiler.py $base_path/ $file_name
+    ./ios-compiler.py ../code/$name
 elif [ "$TARGET" == "android" ]
     then
-    ./android-compiler.py $base_path/ $file_name
+    ./android-compiler.py ../code/$name
 elif [ "$TARGET" == "web" ]
     then
-    ./web-compiler.py $base_path/ $file_name
+    ./web-compiler.py ../code/$name
 fi
 
 echo "Code generated successfully"

@@ -160,3 +160,4 @@ datasets/*
 # Training output
 bin/
 /.vscode/
+results/

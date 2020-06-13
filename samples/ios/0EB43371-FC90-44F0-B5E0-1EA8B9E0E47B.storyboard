@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qAw-JF-viq">
+            <objects>
+                <viewController id="wzF-51-Rv4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nyf-tJ-uYo"/>
+                        <viewControllerLayoutGuide type="bottom" id="6S5-eE-ouz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="tOD-kv-CQC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                          <stackView opaque="NO" contentMode="center" fixedFrame="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cvR-o3-hSp">
+    <frame key="frameInset" minX="16" minY="20" width="343" height="440"/>
+    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+    <subviews>
+        <view contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehl-vZ-RkB">
+    <frame key="frameInset" width="343" height="65"/>
+    <subviews>
+        <stackView opaque="NO" contentMode="center" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4K2-8V-aEO">
+            <frame key="frameInset" minX="8" minY="6" width="337" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Xfrrit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5f-F5-C07">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label><button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKo-1C-IUx">
+    <frame key="frameInset" width="22" height="22"/>
+</button>
+            </subviews>
+        </stackView>
+    </subviews>
+    <color key="backgroundColor" red="0.9" green="0.9" blue="0.9" alpha="1" colorSpace="calibratedRGB"/>
+</view><view contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3YN-wA-wgU">
+    <frame key="frameInset" width="343" height="65"/>
+    <subviews>
+        <stackView opaque="NO" contentMode="center" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="siS-XG-qLW">
+            <frame key="frameInset" minX="8" minY="6" width="337" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GQm-PZ-cPl">
+    <frame key="frameInset" width="36" height="36"/>
+    <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</imageView><imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Leu-t4-hjo">
+    <frame key="frameInset" width="36" height="36"/>
+    <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</imageView><imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YsZ-sh-pgg">
+    <frame key="frameInset" width="36" height="36"/>
+    <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</imageView><imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7MP-ue-4Ci">
+    <frame key="frameInset" width="36" height="36"/>
+    <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</imageView>
+            </subviews>
+        </stackView>
+    </subviews>
+    <color key="backgroundColor" red="0.9" green="0.9" blue="0.9" alpha="1" colorSpace="calibratedRGB"/>
+</view><view contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWL-mh-pd0">
+    <frame key="frameInset" width="343" height="65"/>
+    <subviews>
+        <stackView opaque="NO" contentMode="center" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pen-Cg-xXX">
+            <frame key="frameInset" minX="8" minY="6" width="337" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lafvlr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAS-ao-7fn">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label><slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="anJ-Bq-Gl2">
+    <frame key="frameInset" width="142" height="31"/>
+</slider><label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Etzobq" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5v8-Bu-Cth">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label>
+            </subviews>
+        </stackView>
+    </subviews>
+    <color key="backgroundColor" red="0.9" green="0.9" blue="0.9" alpha="1" colorSpace="calibratedRGB"/>
+</view><view contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ICz-PL-sw3">
+    <frame key="frameInset" width="343" height="65"/>
+    <subviews>
+        <stackView opaque="NO" contentMode="center" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ajg-Zs-SVC">
+            <frame key="frameInset" minX="8" minY="6" width="337" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mppwcg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StR-Cb-fYz">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label><switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AVq-nc-Hvl">
+    <frame key="frameInset" width="51" height="31"/>
+</switch>
+            </subviews>
+        </stackView>
+    </subviews>
+    <color key="backgroundColor" red="0.9" green="0.9" blue="0.9" alpha="1" colorSpace="calibratedRGB"/>
+</view><view contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jRj-33-OJg">
+    <frame key="frameInset" width="343" height="65"/>
+    <subviews>
+        <stackView opaque="NO" contentMode="center" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="7jh-zA-qae">
+            <frame key="frameInset" minX="8" minY="6" width="337" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Toujps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVt-No-MsO">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label><switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8PP-Y7-IE5">
+    <frame key="frameInset" width="51" height="31"/>
+</switch>
+            </subviews>
+        </stackView>
+    </subviews>
+    <color key="backgroundColor" red="0.9" green="0.9" blue="0.9" alpha="1" colorSpace="calibratedRGB"/>
+</view><view contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rD1-ka-ZVt">
+    <frame key="frameInset" width="343" height="65"/>
+    <subviews>
+        <stackView opaque="NO" contentMode="center" fixedFrame="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iaV-0u-hk6">
+            <frame key="frameInset" minX="8" minY="6" width="337" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Kfbqqw" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7T-yz-gJg">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label><slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="g16-JQ-qwH">
+    <frame key="frameInset" width="142" height="31"/>
+</slider><label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lcwpyu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zg7-Hm-bHO">
+    <frame key="frameInset" width="255" height="52"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <nil key="textColor"/>
+    <nil key="highlightedColor"/>
+</label>
+            </subviews>
+        </stackView>
+    </subviews>
+    <color key="backgroundColor" red="0.9" green="0.9" blue="0.9" alpha="1" colorSpace="calibratedRGB"/>
+</view>
+    </subviews>
+    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+</stackView><tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xrw-PH-8FJ">
+    <frame key="frameInset" height="49"/>
+    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+    <items>
+        <tabBarItem systemItem="more" id="zUJ-m5-wGv"/><tabBarItem systemItem="more" id="0SW-Sm-Nur"/><tabBarItem systemItem="search" id="4Lg-nf-F1W"/>
+    </items>
+</tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y3O-6N-kZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="95.802098950524751"/>
+        </scene>
+    </scenes>
+</document>
